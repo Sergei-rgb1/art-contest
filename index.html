@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Конкурс на лучший арт для Юры</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Конкурс на лучший арт для Юры</h1>
+        <p>Прими участие и выиграй приз!</p>
+    </header>
+    <main>
+        <section class="rules">
+            <h2>Правила конкурса</h2>
+            <p>Создай арт с персонажем Юры и отправь его до 1 декабря. Победитель получит сертификат на 200 рублей!</p>
+        </section>
+        <section class="gallery">
+            <h2>Галерея работ</h2>
+            <div id="gallery-container">
+                <!-- Сюда будут добавляться работы через JavaScript -->
+            </div>
+        </section>
+        <section class="submit-form">
+            <h2>Отправить свою работу</h2>
+            <form id="art-form">
+                <input type="text" id="name" placeholder="Ваше имя" required>
+                <input type="email" id="email" placeholder="Ваша почта" required>
+                <textarea id="description" placeholder="Комментарий к работе" rows="5"></textarea>
+                <input type="file" id="artwork" accept="image/*" required>
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Конкурс артов для Юры</p>
+    </footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

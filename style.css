@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+header {
+    background-color: #ffcccb;
+    color: #4a4a4a;
+    padding: 20px;
+    text-align: center;
+}
+main {
+    padding: 20px;
+}
+.rules, .gallery, .submit-form {
+    margin-bottom: 30px;
+}
+#gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+#gallery-container img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+form input, form textarea, form button {
+    padding: 10px;
+    font-size: 16px;
+}
+form button {
+    background-color: #ffcccb;
+    border: none;
+    cursor: pointer;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4a4a4a;
+    color: white;
+}
